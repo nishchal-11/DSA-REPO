@@ -1,16 +1,16 @@
 
-
 public class shadowing{
-    static int x =90;
     public static void main(String[] args) {
-       System.out.println(".()"+x);
-       int x = 2;
-       System.out.println(x);
-       sex();
-
+      int a =153;
+      int sum =0;
+      while(a>0){
+        int rem=a%10;
+        a=a/10;
+        int cube= rem*rem*rem;
+        sum += cube;
+        if(sum==a){
+        System.out.println("true");
     }
-    static void sex(){
-        System.out.println(x);
-    };
-    
+      }
     }
+}
