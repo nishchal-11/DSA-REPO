@@ -9,7 +9,7 @@ public class linearsearch2d{
         System.out.println(Arrays.toString(ans));
         
     }
-            static int[] linear(int [][]arr, int target){
+            static int linear(int [][]arr, int target){
                     
                     for( int i=0;i<arr.length;i++){
                         for(int j =0;j<arr[i].length;j++){
