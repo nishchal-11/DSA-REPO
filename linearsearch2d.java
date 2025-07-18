@@ -1,7 +1,7 @@
 
 import java.util.Arrays;
 
-public class linear{
+public class linearsearch2d{
     public static void main(String[] args) {
         int[][] nums ={{23,23 ,44},{34,8,7},{91,0,8}};
         int target= 44;
