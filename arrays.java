@@ -13,6 +13,7 @@ public class arrays{
             }
         }
         for (int[] b: arr) {
+            
             System.out.println(Arrays.toString(b));
             System.out.println();
         }
