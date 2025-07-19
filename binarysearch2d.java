@@ -1,7 +1,7 @@
 
 import java.util.Arrays;
 
-public class binarysearch{
+public class binarysearch2d{
     public static void main(String[] args) {
         int[][] arr={{2,3,4},{5,6 ,7,} ,{10 ,55,88}};
         System.out.println(Arrays.toString(binarysearch(arr, 7)));
